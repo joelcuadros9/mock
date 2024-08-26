@@ -1,10 +1,135 @@
 {
-  "posts": [
+  "activator": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "Audiencia Predefinida"
+    },
+    {
+      "id": 2,
+      "title": "Cambio en perfil"
+    },
+    {
+      "id": 3,
+      "title": "Evento en tiempo real"
+    },
+    {
+      "id": 4,
+      "title": "Mensaje Inbound"
+    },
+    {
+      "id": 5,
+      "title": "Fecha/Hora"
+    },
+    {
+      "id": 6,
+      "title": "Workflow Existente"
+    },
+    {
+      "id": 7,
+      "title": "API"
     }
   ],
+  "channel":[
+    {
+      "id": 1,
+      "title": "Enviar SMS"
+    },
+    {
+      "id": 2,
+      "title": "Enviar Email"
+    },
+    {
+      "id": 3,
+      "title": "Enviar Whatsapp"
+    },
+    {
+      "id": 4,
+      "title": "Failover"
+    },
+    {
+      "id": 5,
+      "title": "Evaluar mensaje entrante"
+    }
+  ],
+  "function":[
+    {
+      "id": 1,
+      "title": "Enviar a no contactar"
+    },
+    {
+      "id": 2,
+      "title": "Eliminar de no contactar"
+    },
+    {
+      "id": 3,
+      "title": "Evaluar datos"
+    },
+    {
+      "id": 4,
+      "title": "Segmentar audiencia"
+    },
+    {
+      "id": 5,
+      "title": "Esperar evento"
+    }
+  ],
+  "workflow":[
+    {
+      "id": 1,
+      "name": "Example 1",
+      "start_date": "08/29/2023",
+      "end_date": "05/19/2024",
+      "active": true,
+      "created": "08/29/2023"
+    },
+    {
+      "id": 2,
+      "name": "Example 2",
+      "start_date": "08/10/2024",
+      "end_date": "08/19/2024",
+      "active": false,
+      "created": "08/10/2024"
+    }
+  ],
+  "workflow_detail":[
+    {
+      "id": 1,
+      "workflow_id": 1,
+      "detail": [
+        {
+          "activator": {
+            "id": 1,
+            "name": "Audiencia Predefinida",
+            "real_time_update": true,
+            "contacts": [
+              {
+                "id": 1,
+                "name": "Contact 1"
+              },
+              {
+                "id": 2,
+                "name": "Contact 2"
+              }
+            ]
+          },
+            "function": [
+              {
+                "id": 1,
+                "name": "Enviar a no contactar"
+              }
+            ],
+            "channel": [
+              {
+                "id": 1,
+                "name": "Enviar SMS"
+              }
+            ],
+          "sender": "Sender Example",
+          "mesage": "Lorem Ipsum"
+        }
+      ]
+    }
+  ]
   "profile": {
     "name": "typicode"
   }
