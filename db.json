@@ -51,28 +51,6 @@
       "title": "Evaluar mensaje entrante"
     }
   ],
-  "function":[
-    {
-      "id": 1,
-      "title": "Enviar a no contactar"
-    },
-    {
-      "id": 2,
-      "title": "Eliminar de no contactar"
-    },
-    {
-      "id": 3,
-      "title": "Evaluar datos"
-    },
-    {
-      "id": 4,
-      "title": "Segmentar audiencia"
-    },
-    {
-      "id": 5,
-      "title": "Esperar evento"
-    }
-  ],
   "workflow":[
     {
       "id": 1,
